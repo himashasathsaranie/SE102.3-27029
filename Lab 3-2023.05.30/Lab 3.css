@@ -1,0 +1,33 @@
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: #690C0E;
+    background-image: -webkit-linear-gradient(270deg,rgba(4,18,48,1.00) 0%,rgba(0,19,60,1.00) 50.36%,rgba(2,16,45,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(4,18,48,1.00) 0%,rgba(0,19,60,1.00) 50.36%,rgba(2,16,45,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(4,18,48,1.00) 0%,rgba(0,19,60,1.00) 50.36%,rgba(2,16,45,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(4,18,48,1.00) 0%,rgba(0,19,60,1.00) 50.36%,rgba(2,16,45,1.00) 100%);
+}
+.navbar-nav.me-auto.mb-2.mb-lg-0 .nav-item .nav-link.active {
+}
+.navbar-nav.me-auto.mb-2.mb-lg-0 .nav-item .nav-link.active {
+    color: #B76205;
+}
+.navbar-nav.me-auto.mb-2.mb-lg-0 .nav-item .nav-link {
+    color: #B76205;
+}
+#navbarSupportedContent .d-flex .btn.btn-outline-success {
+}
+#navbarSupportedContent .d-flex .btn.btn-outline-success {
+    color: #B76205;
+}
+#navbarSupportedContent .d-flex .btn.btn-outline-success {
+    border-color: #B76205;
+}
+#navbarSupportedContent .d-flex .form-control.me-2 {
+    color: #B76205;
+    border-color: #B76205;
+}
+#navbarSupportedContent .d-flex .btn.btn-outline-success {
+    color: #B76205;
+}
+#navbarSupportedContent .d-flex .form-control.me-2 {
+    color: #B76205;
+}
