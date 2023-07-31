@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+  <script>
+	function CalculateMarks()
+	  {
+		var marks=[];
+		var total=0;
+		var average=0;
+		  
+		  for(var i=1;i<=5;i++)
+			  {
+				  var inputId="mark"+i;
+				  var mark=parseInt(document.getElementById(inputId).value);
+				  marks.push(mark);
+				  total+=mark;
+			  }
+		  average=total/5;
+		  
+		  document.getElementById("total").innerHTML=:"Sum is: "+tatal;
+		  document.getElementById("average").innerHTML=:"Average is: "+average;
+		  document.getElementById("Grade").style.display="inline";
+		  
+		  
+	  }
+	  function charGrade()
+	  {
+		  var average=parseFloat(document.getElementById("average").innerHTML.split(" ")[1]);
+		  if(average>30)
+			  {
+				  alert("Congratulations! You passed.");
+			  }
+		  else
+		  {
+			 alert("Better luck next time."); 
+		  }
+	  }
+	  
+	</script>
+	</head>
+	<body>
+		
+		<button onclick="calculateMarks()">Grade</button><br><br>
+		<div id="output">
+			<span id="total"></span><br>
+			<span id="average"></span><br>
+			<button id="Grade"onclick="checkGrade()"style="display: none;">Grade</button>
+		</div>
+  </body>
+</html>
